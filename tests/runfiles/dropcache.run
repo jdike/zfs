@@ -1,0 +1,10 @@
+[DEFAULT]
+quiet = False
+user = root
+timeout = 10800
+outputdir = /var/tmp/test_results
+tags = ['functional']
+
+[tests/functional/cache]
+tests = ['cache_013_pos']
+tags = ['functional' ]
